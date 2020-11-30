@@ -1,10 +1,10 @@
 package main
 
 import (
+	"app-pointment/server"
+	"app-pointment/server/repositories"
+	"app-pointment/server/services"
 	"flag"
-	"github.com/kompir/app-pointment/server"
-	"github.com/kompir/app-pointment/server/repositories"
-	"github.com/kompir/app-pointment/server/services"
 	"log"
 	"os"
 	"syscall"

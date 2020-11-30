@@ -1,12 +1,11 @@
 package controllers
 
 import (
+	"app-pointment/server/models"
 	"context"
 	"fmt"
 	"strconv"
 	"strings"
-
-	"github.com/kompir/app-pointment/server/models"
 )
 
 func ctxParam(ctx context.Context, key string) urlParam {

@@ -4,9 +4,9 @@ import (
 	"encoding/json"
 	"io"
 
-	"github.com/kompir/app-pointment/server"
-	"github.com/kompir/app-pointment/server/models"
-	"github.com/kompir/app-pointment/server/services"
+	"app-pointment/server"
+	"app-pointment/server/models"
+	"app-pointment/server/services"
 )
 
 type FileDB interface {

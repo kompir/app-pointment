@@ -1,13 +1,13 @@
 package controllers
 
 import (
+	"app-pointment/server/transport"
 	"encoding/json"
-	"github.com/kompir/app-pointment/server/transport"
 	"net/http"
 	"time"
 
-	"github.com/kompir/app-pointment/server/models"
-	"github.com/kompir/app-pointment/server/services"
+	"app-pointment/server/models"
+	"app-pointment/server/services"
 )
 
 type editor interface {

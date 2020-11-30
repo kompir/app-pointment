@@ -3,7 +3,7 @@ package controllers
 import (
 	"net/http"
 
-	"github.com/kompir/app-pointment/server/transport"
+	"app-pointment/server/transport"
 )
 
 type deleter interface {

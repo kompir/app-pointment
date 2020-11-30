@@ -4,7 +4,7 @@ import (
 	"log"
 	"time"
 
-	"github.com/kompir/app-pointment/server/models"
+	"app-pointment/server/models"
 )
 
 type saver interface {

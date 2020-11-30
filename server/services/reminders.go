@@ -6,7 +6,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/kompir/app-pointment/server/models"
+	"app-pointment/server/models"
 )
 
 const (

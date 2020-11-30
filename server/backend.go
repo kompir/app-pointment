@@ -7,9 +7,9 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/kompir/app-pointment/server/controllers"
-	"github.com/kompir/app-pointment/server/models"
-	"github.com/kompir/app-pointment/server/services"
+	"app-pointment/server/controllers"
+	"app-pointment/server/models"
+	"app-pointment/server/services"
 )
 
 type Backend struct {

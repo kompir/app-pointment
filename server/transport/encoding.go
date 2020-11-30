@@ -5,7 +5,7 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/kompir/app-pointment/server/models"
+	"app-pointment/server/models"
 )
 
 const (

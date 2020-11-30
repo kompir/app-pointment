@@ -11,7 +11,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/kompir/app-pointment/server/models"
+	"app-pointment/server/models"
 )
 
 type dbConfig struct {

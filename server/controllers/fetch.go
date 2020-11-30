@@ -3,8 +3,8 @@ package controllers
 import (
 	"net/http"
 
-	"github.com/kompir/app-pointment/server/models"
-	"github.com/kompir/app-pointment/server/transport"
+	"app-pointment/server/models"
+	"app-pointment/server/transport"
 )
 
 type lister interface {

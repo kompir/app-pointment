@@ -5,9 +5,9 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/kompir/app-pointment/server/models"
-	"github.com/kompir/app-pointment/server/services"
-	"github.com/kompir/app-pointment/server/transport"
+	"app-pointment/server/models"
+	"app-pointment/server/services"
+	"app-pointment/server/transport"
 )
 
 type creator interface {
