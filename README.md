@@ -3,8 +3,7 @@
     git clone https://github.com/kompir/app-pointment.git
     cd app-pointment/
     go mod tidy
-    cd app-pointment/notifier/
-    yarn
+
     cd app-pointment/
     make
 

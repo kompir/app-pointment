@@ -1,8 +1,11 @@
 .PHONY: client
 .PHONY: server
 
-all: vet client server
+all: yarn vet client server
 
+yarn:
+	@echo "Install Node Modules"
+	yarn --cwd notifier/
 vet:
 	@echo "Checking for code issues"
 	go vet ./...
